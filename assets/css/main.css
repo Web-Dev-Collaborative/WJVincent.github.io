@@ -1453,6 +1453,7 @@ input, select, textarea {
 
 				#header .logo .icon:before {
 					font-size: 1.75rem;
+					padding-right: 5px;
 				}
 
 			#header .content .inner {
