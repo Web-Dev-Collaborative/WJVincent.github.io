@@ -1,3 +1,3 @@
-# WJVincent.github.io
+# William Vincent
 
-### WIP
+### Husband, Father, Friend, and Passionate Software Developer.
