@@ -1,10 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const contactForm = document.getElementById("contact-form");
 
-  contactForm.addEventListener("submit", (e) => {
+  contactForm.addEventListener("submit", async (e) => {
     e.preventDefault();
 
     const contactData = new FormData(contactForm);
+
     const name = contactData.get("name");
     const email = contactData.get("email");
     const message = contactData.get("message");
@@ -19,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
       created: readableDate,
     };
 
-    fetch(
+    await fetch(
       "https://sheet.best/api/sheets/bfabd63f-0ecf-45fc-b0c5-10ca5ef43ece",
       {
         method: "POST",
