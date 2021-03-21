@@ -1764,7 +1764,7 @@ body.is-preload #header .content .inner {
   transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out,
     opacity 0.325s ease-in-out;
   width: 100%;
-  max-width: 100%;
+  max-width: 40%;
   margin-top: 2rem;
   text-align: center;
 }
@@ -1775,6 +1775,13 @@ body.is-preload #header .content .inner {
   opacity: 0.75;
   margin-bottom: 0;
   text-transform: uppercase;
+}
+
+#footer-div {
+  padding: 1rem;
+  background-color: rgba(27, 31, 34, 0.85);
+  min-width: 7.5rem;
+  border: solid 1px #ffffff;
 }
 
 body.is-article-visible #footer {
